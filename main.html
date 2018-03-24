@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mrmediarig</title>
+    <link rel="stylesheet" href="./css/main.css">
+
+    <link rel="shortcut icon" href="./favicon.png" type="image/png">
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="./parallax.min.js"></script>
+
+
+
+
+
+
+
+
+  </head>
+  <body>
+
+
+
+    <div class="flexbox">
+
+      <div class="element1">
+        <span><a href="https://www.youtube.com/channel/UCiCwlYMuRBpeBbxW6eHzyuQ/featured?pbjreload=10" target="_blank"><img src="./img/logos/watermarkblack.png" alt="hello"></a></span>
+      </div>
+
+      <div class="element2">
+        <span><a href="#">MRMEDIARIG</a></span>
+      </div>
+
+
+
+      <div class="element4" id="menudrawer">
+        <span><a onclick="menuopen()"><img src="./img/logos/hamburgerblack.png" alt="hello"></a></span>
+      </div>
+
+
+    </div>
+
+    <div id="nav_mobile">
+
+
+      <span class="close"><a onclick="menuclose()">&times;</a></span>
+
+      <div id="menuclass">
+
+
+      <span><a href="#" class="nlink_active" onclick="menuclose()">HOME</a></span>
+      <span><a href="#work" class="nlink" onclick="menuclose()">WORK</a></span>
+      <span id="contacts"><a href="#contact" class="nlink" onclick="menuclose()">SAY HELLO</a></span>
+
+      </div>
+
+    </div>
+
+
+    <div class="showcase" class="parallax-window" data-parallax="scroll" data-image-src="./img/cam1.jpg" >
+
+
+
+
+      <div class="selement1">
+           <span>CINEMATOGRAPHER</span>
+      </div>
+
+      <div class="selement2">
+
+          <div><h1>JOIN THE COMMUNITY</h1></div><br>
+         <span><a href="https://www.youtube.com/channel/UCiCwlYMuRBpeBbxW6eHzyuQ/featured?pbjreload=10" target="_blank" class="button"> Take Me</a></span>
+
+      </div>
+
+      <div class="selement3">
+        <span>
+           <a href="#f2"><img src="./img/logos/scrolldown.png"></a>
+        </span>
+      </div>
+
+
+
+    </div>
+
+
+    <div class="container">
+
+      <div class="heading">
+
+        <span id="work">
+          <h1>WORKS</h1>
+        </span>
+
+      </div>
+
+
+      <div class="works">
+
+                <div class="welement" id="mainwork">
+
+                  <div class="videocontainer">
+
+
+
+                          <div id="videowrapper">
+                                      <iframe width="560" height="315" src="https://www.youtube.com/embed/V-n5QbIfYkk?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen id="frame"></iframe>
+
+                          </div>
+
+
+                  </div>
+                </div>
+
+
+                <div class="welement">
+                  <img src="img/gal1.jpeg" alt=" hey there" id="img1" onclick="imchange(1)">
+
+                  <span class="wtitle" id="wtitle1" >this is the title</span>
+                </div>
+
+
+                <div class="welement">
+                  <img src="img/gal1.jpeg" alt=" hey there" id="img2" onclick="imchange(2)">
+
+                  <span class="wtitle"  id="wtitle2" >this is the title</span>
+                </div>
+
+                <div class="welement">
+                  <img src="img/gal1.jpeg" alt=" hey there" id="img3" onclick="imchange(3)">
+
+                  <span class="wtitle"  id="wtitle3" >this is the title</span>
+                </div>
+
+
+                <div class="welement">
+                  <img src="img/gal1.jpeg" alt=" hey there" id="img4" onclick="imchange(4)">
+
+                  <span class="wtitle" id="wtitle4" >this is the title</span>
+                </div>
+
+
+                <div class="welement">
+                  <img src="img/gal1.jpeg" alt=" hey there" id="img5" onclick="imchange(5)">
+
+                  <span class="wtitle"  id="wtitle5" >this is the title</span>
+                </div>
+
+
+                <div class="welement">
+                  <img src="img/gal1.jpeg" alt=" hey there" id="img6" onclick="imchange(6)">
+
+                  <span class="wtitle"  id="wtitle6" >this is the title</span>
+                </div>
+
+
+                <div class="welement">
+                  <img src="img/gal1.jpeg" alt=" hey there" id="img7" onclick="imchange(7)">
+
+                  <span class="wtitle"  id="wtitle7" >this is the title</span>
+                </div>
+
+
+                <div class="welement">
+                  <img src="img/gal1.jpeg" alt=" hey there" id="img8" onclick="imchange(8)">
+
+                  <span class="wtitle"  id="wtitle8" >this is the title</span>
+                </div>
+
+
+
+
+
+      </div>
+
+
+    </div>
+<div class="container">
+
+
+<div class="blacbuttonmiddle">
+
+  <span id="btb"><a href="https://www.youtube.com/channel/UCiCwlYMuRBpeBbxW6eHzyuQ/videos" target="_blank"  id="blackbutton"> More</a></span>
+
+</div>
+
+
+</div>
+
+<div class="showcase" class="parallax-window" data-parallax="scroll" data-image-src="./img/footerimage.png">
+
+
+
+            <footer  >
+            <div class="footerelement">
+
+                  <div class="profileimage"  id="contact">
+
+                  </div>
+
+                  <div class="name">
+
+                    <h3>Sankarshan Ghosh</h3>
+
+                  </div>
+
+                  <div class="email">
+
+                    <a type="email" href="mrmediarig@gmail.com">
+
+                    <h3 class="email_id">business@mrmediarig.com</h3>
+
+                    </a>
+
+                  </div>
+
+
+
+            </div>
+
+
+            <div class="footerelement">
+
+
+                  <div class="social">
+
+                    <a href="https://www.instagram.com/mrmediarig/" target="_blank"><img src="./img/logos/instagram.png" alt="insta"></a>
+
+                    <a href="https://twitter.com/mrmediarig" target="_blank"><img src="./img/logos/twitter.png" alt="twitter"></a>
+                    <a href="https://www.youtube.com/channel/UCiCwlYMuRBpeBbxW6eHzyuQ" target="_blank"><img src="./img/logos/youtube.png" alt="YT"></a>
+
+
+                  </div>
+
+                  <div class="socialhandle">
+
+                    <h3>@mrmediarig</h3>
+
+                  </div>
+            </div>
+
+
+
+
+
+
+
+            </footer>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+
+//for the navigation menu
+
+function menuopen() {
+
+  document.getElementById('nav_mobile').style.width="250px";
+  document.getElementById('menuclass').style.opacity="1";
+  document.getElementById('menudrawer').style.opacity="0";
+
+}
+
+
+function menuclose(){
+
+
+
+
+  document.getElementById("nav_mobile").style.width="0px";
+  document.getElementById('menuclass').style.opacity="0";
+  document.getElementById('menudrawer').style.opacity="1"
+
+
+
+}
+
+
+
+//for the gallery
+
+function imchange( l){
+
+document.getElementById("frame").src=vid_links[l];
+
+
+}
+
+
+
+
+
+var vid_links=["https://www.youtube.com/embed/V-n5QbIfYkk?rel=0&amp;showinfo=0",
+
+"https://www.youtube.com/embed/fwNnld1i1_Y?autoplay=1;rel=0&amp;showinfo=0",
+
+"https://www.youtube.com/embed/uqPZ5HGgxtg?autoplay=1;rel=0&amp;showinfo=0",
+
+"https://www.youtube.com/embed/ZCWd-N9ZhNM?autoplay=1;rel=0&amp;showinfo=0",
+
+"https://www.youtube.com/embed/7j0wfLUzsZg?autoplay=1;rel=0&amp;showinfo=0",
+
+"https://www.youtube.com/embed/ftUhHu0EyMM?autoplay=1;rel=0&amp;showinfo=0",
+
+"https://www.youtube.com/embed/1KS66Pc7dqE?autoplay=1;rel=0&amp;showinfo=0",
+
+"https://www.youtube.com/embed/82p5MRRRZX4?autoplay=1;rel=0&amp;showinfo=0",
+
+"https://www.youtube.com/embed/GN6FbekZjXI?autoplay=1;rel=0&amp;showinfo=0",
+
+"https://www.youtube.com/embed/xjAkWOC41Qg?autoplay=1;rel=0&amp;showinfo=0",
+
+"https://www.youtube.com/embed/riEm8PH7fG4?autoplay=1;rel=0&amp;showinfo=0",
+
+"https://www.youtube.com/embed/-6ycqF8xTt0?autoplay=1;rel=0&amp;showinfo=0",
+
+"https://www.youtube.com/embed/U5ZVk3LSCzc?autoplay=1;rel=0&amp;showinfo=0"];
+
+
+
+
+var img_links= ['img/thumb/9.jpg',
+
+'img/thumb/8.jpg',
+
+'img/thumb/7.jpg',
+
+'img/thumb/6.jpg',
+
+'img/thumb/5.jpg',
+
+'img/thumb/4.jpg',
+
+'img/thumb/3.jpg',
+
+'img/thumb/2.jpg',
+
+'img/thumb/1.jpg']
+
+
+var  img_title=["GoodBye Windows Phones",
+
+"What Song Is Playing Near You",
+
+"In This Journey",
+
+"Stabilize Shaky Footage",
+
+"Lighting Equipments",
+
+"Top 3 Smartphones",
+
+"Best Android Apps",
+
+"Most Expensive App",
+
+"View Instagram Profile"];
+
+
+
+window.onload=document.getElementById("frame").src=vid_links[0];
+
+
+
+window.onload=document.getElementById("img1").src=img_links[1];
+window.onload=document.getElementById("img2").src=img_links[2];
+window.onload=document.getElementById("img3").src=img_links[3];
+window.onload=document.getElementById("img4").src=img_links[4];
+window.onload=document.getElementById("img5").src=img_links[5];
+window.onload=document.getElementById("img6").src=img_links[6];
+window.onload=document.getElementById("img7").src=img_links[7];
+window.onload=document.getElementById("img8").src=img_links[8];
+
+
+
+window.onload=document.getElementById("wtitle1").innerHTML=img_title[1];
+window.onload=document.getElementById("wtitle2").innerHTML=img_title[2];
+window.onload=document.getElementById("wtitle3").innerHTML=img_title[3];
+window.onload=document.getElementById("wtitle4").innerHTML=img_title[4];
+window.onload=document.getElementById("wtitle5").innerHTML=img_title[5];
+window.onload=document.getElementById("wtitle6").innerHTML=img_title[6];
+window.onload=document.getElementById("wtitle7").innerHTML=img_title[7];
+window.onload=document.getElementById("wtitle8").innerHTML=img_title[8];
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
